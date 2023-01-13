@@ -2,7 +2,7 @@
 
 """class Mylist that inherits list"""
 
-class Mylist(list):
+class MyList(list):
     """a subclass of list"""
 
     def print_sorted(self):
