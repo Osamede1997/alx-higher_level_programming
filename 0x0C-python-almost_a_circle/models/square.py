@@ -30,3 +30,12 @@ class Square(Rectangle):
     def size(self, value):
         self.width = value
         self.height = value
+
+    def to_dictionary(self):
+        """Returns the dictionary representation of a rectangle"""
+        return {
+            "id": self.id,
+            "size": self.size,
+            "x": self.x,
+            "y": self.id
+        }
