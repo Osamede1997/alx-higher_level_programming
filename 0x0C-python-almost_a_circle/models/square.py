@@ -37,5 +37,5 @@ class Square(Rectangle):
             "id": self.id,
             "size": self.size,
             "x": self.x,
-            "y": self.id
+            "y": self.y
         }
