@@ -5,7 +5,7 @@ exports.esrever = function (list) {
     while ((len - i) > 0) {
         const tmp = list[len];
         list[len] = list[i];
-        list[i] = aux;
+        list[i] = tmp;
         i++;
         len--;
     }
